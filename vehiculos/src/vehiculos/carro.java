@@ -8,7 +8,9 @@ import java.util.Date;
 
 /**
  *
- * @author sistemas
+ * @author isabbb
+ * @class carro
+ * @version 
  */
 public class carro {
     private String marca;

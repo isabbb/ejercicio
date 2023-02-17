@@ -19,6 +19,17 @@ public class Vehiculos {
     //mazda.marca="mazda";
     mazda.setMarca("Mazda");
         System.out.println(mazda.getMarca());
+        autovolador carro=new autovolador();
+        
+        carro.setEsta_Volando(true);
+        
+        if (carro.isEsta_Volando()){
+            System.out.println("Esta volandooo :D");
+        }
+        else {
+            System.out.println("No esta volando :c");
+            
+        }
     }
     
     
